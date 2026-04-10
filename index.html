@@ -1,226 +1,62 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f7f5f1;
-  color: #2f2f2f;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories by David Kulikowski</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e7e1d8;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
+<header>
+  <div class="nav-container">
+    <a class="site-title" href="index.html">Stories by David Kulikowski</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="resources.html">Free Resources</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-.nav-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 18px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+<section class="hero">
+  <div>
+    <h1>Stories that nurture imagination, connection, and meaningful learning.</h1>
+    <p>
+      Welcome to a warm and thoughtful space for parents, teachers, and young readers.
+    </p>
+    <p>
+      These books are inspired by personal experiences and designed to spark joy,
+      conversation, creativity, and connection.
+    </p>
 
-.site-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #3a3a3a;
-  text-decoration: none;
-}
+    <div class="buttons">
+      <a class="button button-primary" href="books.html">Explore the Books</a>
+      <a class="button button-secondary" href="resources.html">Download Free Resources</a>
+      <a class="button button-secondary" href="about.html">Learn More</a>
+    </div>
+  </div>
 
-nav a {
-  color: #4a4a4a;
-  text-decoration: none;
-  margin-left: 22px;
-  font-weight: 600;
-  font-size: 15px;
-}
+  <div class="hero-image">
+    <img src="cover.jpg" alt="Book cover artwork placeholder">
+  </div>
+</section>
 
-nav a:hover {
-  color: #8c6a43;
-}
+<section class="section">
+  <div class="section-card">
+    <h2>A place for stories with heart</h2>
+    <p>
+      Stories by David Kulikowski brings together children’s books, family connection,
+      and practical resources for adults who want to make story time more meaningful.
+    </p>
+  </div>
+</section>
 
-.hero {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 70px 20px 50px 20px;
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 40px;
-  align-items: center;
-}
+<div class="footer">
+  © Stories by David Kulikowski
+</div>
 
-.hero h1 {
-  font-size: 48px;
-  line-height: 1.15;
-  margin-bottom: 20px;
-  color: #2e2d2b;
-}
-
-.hero p {
-  font-size: 19px;
-  margin-bottom: 18px;
-  color: #56524d;
-}
-
-.hero-image {
-  text-align: center;
-}
-
-.hero-image img {
-  max-width: 100%;
-  width: 340px;
-  border-radius: 18px;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
-  background: white;
-}
-
-.buttons {
-  margin-top: 28px;
-}
-
-.button {
-  display: inline-block;
-  padding: 14px 22px;
-  margin-right: 12px;
-  margin-bottom: 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.button-primary {
-  background: #8c6a43;
-  color: white;
-}
-
-.button-secondary {
-  background: white;
-  color: #5a4a37;
-  border: 1px solid #d9cdbf;
-}
-
-.section {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 28px 20px 60px 20px;
-}
-
-.section-card {
-  background: white;
-  border-radius: 18px;
-  padding: 34px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
-  margin-bottom: 24px;
-}
-
-.section h2 {
-  font-size: 32px;
-  margin-bottom: 12px;
-  color: #2f2d2a;
-}
-
-.section h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #3d382f;
-}
-
-.section p {
-  color: #5a564f;
-  font-size: 17px;
-}
-
-.grid-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-}
-
-.book-layout {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 30px;
-  align-items: start;
-}
-
-.book-layout img {
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.10);
-  background: white;
-}
-
-.resource-list {
-  padding-left: 18px;
-}
-
-.resource-list li {
-  margin-bottom: 14px;
-}
-
-.resource-list a {
-  color: #8c6a43;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.resource-list a:hover {
-  text-decoration: underline;
-}
-
-.footer {
-  background: #ffffff;
-  border-top: 1px solid #e7e1d8;
-  text-align: center;
-  padding: 28px 20px;
-  color: #6e675e;
-  font-size: 14px;
-  margin-top: 40px;
-}
-
-.small-note {
-  font-size: 14px;
-  color: #80786d;
-}
-
-.highlight {
-  color: #8c6a43;
-  font-weight: 700;
-}
-
-.placeholder-box {
-  background: #fcfaf7;
-  border: 1px dashed #d8c9b8;
-  border-radius: 12px;
-  padding: 18px;
-  margin-top: 14px;
-}
-
-@media (max-width: 850px) {
-  .hero,
-  .grid-2,
-  .book-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    font-size: 36px;
-  }
-
-  .nav-container {
-    display: block;
-  }
-
-  nav {
-    margin-top: 12px;
-  }
-
-  nav a {
-    display: inline-block;
-    margin: 8px 14px 0 0;
-  }
-}
+</body>
+</html>
