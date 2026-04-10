@@ -1,168 +1,226 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Stories by David K</title>
-
-<style>
-
-body{
-font-family: Arial, Helvetica, sans-serif;
-margin:0;
-background:#f6f6f6;
-color:#333;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f5f1;
+  color: #2f2f2f;
+  line-height: 1.6;
 }
 
-header{
-background:white;
-padding:40px 20px;
-text-align:center;
-border-bottom:1px solid #e5e5e5;
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e7e1d8;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-nav{
-margin-top:20px;
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav a{
-margin:0 15px;
-text-decoration:none;
-color:#333;
-font-weight:bold;
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a3a3a;
+  text-decoration: none;
 }
 
-.hero{
-background:white;
-padding:60px 20px;
-text-align:center;
+nav a {
+  color: #4a4a4a;
+  text-decoration: none;
+  margin-left: 22px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
-.hero img{
-max-width:300px;
-border-radius:10px;
-box-shadow:0 8px 20px rgba(0,0,0,0.08);
+nav a:hover {
+  color: #8c6a43;
 }
 
-.container{
-max-width:900px;
-margin:auto;
-padding:40px 20px;
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 20px 50px 20px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+  align-items: center;
 }
 
-.section{
-background:white;
-padding:30px;
-margin-bottom:25px;
-border-radius:10px;
-box-shadow:0 3px 10px rgba(0,0,0,0.05);
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  color: #2e2d2b;
 }
 
-.button{
-display:inline-block;
-padding:12px 18px;
-margin-top:10px;
-background:#333;
-color:white;
-text-decoration:none;
-border-radius:6px;
+.hero p {
+  font-size: 19px;
+  margin-bottom: 18px;
+  color: #56524d;
 }
 
-footer{
-text-align:center;
-padding:30px;
-color:#777;
+.hero-image {
+  text-align: center;
 }
 
-</style>
+.hero-image img {
+  max-width: 100%;
+  width: 340px;
+  border-radius: 18px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
+  background: white;
+}
 
-</head>
+.buttons {
+  margin-top: 28px;
+}
 
-<body>
+.button {
+  display: inline-block;
+  padding: 14px 22px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
 
-<header>
+.button-primary {
+  background: #8c6a43;
+  color: white;
+}
 
-<h1>Stories by David K</h1>
+.button-secondary {
+  background: white;
+  color: #5a4a37;
+  border: 1px solid #d9cdbf;
+}
 
-<nav>
-<a href="#books">Books</a>
-<a href="#resources">Free Resources</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</nav>
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 20px 60px 20px;
+}
 
-</header>
+.section-card {
+  background: white;
+  border-radius: 18px;
+  padding: 34px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
 
-<div class="hero">
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #2f2d2a;
+}
 
-<h2>Imaginative stories for curious young minds</h2>
+.section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #3d382f;
+}
 
-<p>Fun, creative children's books designed to inspire imagination.</p>
+.section p {
+  color: #5a564f;
+  font-size: 17px;
+}
 
-<img src="cover.jpg">
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
 
-</div>
+.book-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 30px;
+  align-items: start;
+}
 
-<div class="container">
+.book-layout img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.10);
+  background: white;
+}
 
-<div class="section" id="books">
+.resource-list {
+  padding-left: 18px;
+}
 
-<h2>Books</h2>
+.resource-list li {
+  margin-bottom: 14px;
+}
 
-<h3>My Pet Robots</h3>
+.resource-list a {
+  color: #8c6a43;
+  text-decoration: none;
+  font-weight: 600;
+}
 
-<p>A fun story about imaginative robot pets.</p>
+.resource-list a:hover {
+  text-decoration: underline;
+}
 
-<a class="button" href="#">Buy on Amazon</a>
-<a class="button" href="#">Buy on Booktopia</a>
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #e7e1d8;
+  text-align: center;
+  padding: 28px 20px;
+  color: #6e675e;
+  font-size: 14px;
+  margin-top: 40px;
+}
 
-</div>
+.small-note {
+  font-size: 14px;
+  color: #80786d;
+}
 
+.highlight {
+  color: #8c6a43;
+  font-weight: 700;
+}
 
-<div class="section" id="resources">
+.placeholder-box {
+  background: #fcfaf7;
+  border: 1px dashed #d8c9b8;
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 14px;
+}
 
-<h2>Free Resources</h2>
+@media (max-width: 850px) {
+  .hero,
+  .grid-2,
+  .book-layout {
+    grid-template-columns: 1fr;
+  }
 
-<p>Download free activity sheets and colouring pages.</p>
+  .hero h1 {
+    font-size: 36px;
+  }
 
-<ul>
+  .nav-container {
+    display: block;
+  }
 
-<li><a href="activity1.pdf">Robot colouring sheet</a></li>
+  nav {
+    margin-top: 12px;
+  }
 
-<li><a href="activity2.pdf">Word search</a></li>
-
-</ul>
-
-</div>
-
-
-<div class="section" id="about">
-
-<h2>About the Author</h2>
-
-<p>David K writes creative children's books filled with imagination and fun ideas.</p>
-
-<p>His stories encourage curiosity, creativity and a love of reading.</p>
-
-</div>
-
-
-<div class="section" id="contact">
-
-<h2>Contact</h2>
-
-<p>For enquiries or school resources:</p>
-
-<p>Email: your@email.com</p>
-
-</div>
-
-</div>
-
-<footer>
-
-<p>© Stories by David K</p>
-
-</footer>
-
-</body>
-</html>
+  nav a {
+    display: inline-block;
+    margin: 8px 14px 0 0;
+  }
+}
