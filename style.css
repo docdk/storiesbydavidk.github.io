@@ -228,3 +228,45 @@ nav a:hover {
     margin: 8px 14px 0 0;
   }
 }
+
+<style>
+
+.resource-list {
+  list-style-type: disc;
+}
+
+.resource-item {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.preview-image {
+
+  display: none;
+
+  position: absolute;
+
+  left: 260px;   /* distance from text */
+  top: -20px;
+
+  width: 220px;
+
+  border-radius: 8px;
+
+  border: 1px solid #ddd;
+
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+
+  background: white;
+
+}
+
+/* show preview when hovering list item */
+
+.resource-item:hover .preview-image {
+
+  display: block;
+
+}
+
+</style>
