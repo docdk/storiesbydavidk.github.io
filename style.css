@@ -251,3 +251,29 @@ nav a:hover {
     margin: 8px 14px 0 0;
   }
 }
+
+/* --- PDF hover preview --- */
+
+.resource-item {
+  position: relative;
+}
+
+.preview-image {
+  display: none;
+  position: absolute;
+  left: 230px;
+  top: -10px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  z-index: 999;
+}
+
+/* show only when hovering list item */
+.resource-item:hover .preview-image {
+  display: block;
+}
+
+
