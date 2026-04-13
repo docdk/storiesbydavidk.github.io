@@ -276,4 +276,8 @@ nav a:hover {
   display: block;
 }
 
-
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
