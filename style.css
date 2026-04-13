@@ -38,6 +38,10 @@ nav a {
   font-size: 15px;
 }
 
+ul {
+  color: #5a564f;
+}
+
 nav a:hover {
   color: #8c6a43;
 }
