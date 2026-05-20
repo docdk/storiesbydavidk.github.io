@@ -1,6 +1,66 @@
-https://storiesbydavidk.com/thanks
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Stories by David Kulikowski</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <a class="site-title" href="index.html">Stories by David Kulikowski</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="resources.html">Free Resources</a>
+      <a href="about.html">About</a>
+      <a href="idea.html">Idea to Story</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="section-card">
+    <h2>Contact the Author</h2>
+    <p>
+      Thank you for visiting this site and wanting to learn more about these stories. 
+    
+      For enquiries from parents, teachers, schools, bookstores,
+      or collaborators, please get in touch using the details below.
+    </p>
+
+   
+
+    <div class="placeholder-box">
+           <strong>Email:</strong> storiesbydavidk@gmail.com
+    </div>
+  </div>
+
+  <div class="section-card">
+    <h3>Contact Creative Mass</h3>
+    <p>
+      Creative Mass led the creative design, strucutre, and layout of this book. 
+      For enquiries related to their service please use the following details.
+    </p>
+  
+
+    <div class="placeholder-box">
+           <strong>Email:</strong> hello@creativemass.com.au
+    </div>
+  </div>
 
 
+</section>
+
+<div class="footer">
+  © Stories by David Kulikowski
+</div>
+
+</body>
+</html>
 
 
 
