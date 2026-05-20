@@ -227,6 +227,8 @@ nav a:hover {
   margin-top: 14px;
 }
 
+
+
 @media (max-width: 850px) {
 
   .hero,
@@ -285,6 +287,8 @@ nav a:hover {
     font-size: 14px;
   }
 }
+
+
 
 /* --- PDF hover preview --- */
 
