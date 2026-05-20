@@ -98,20 +98,23 @@
       If you would like to be notified when a new book or resources is added, please subscribe below. 
     </p>
     
-      <form
-  action="https://buttondown.com/api/emails/embed-subscribe/storiesbydavidk"
-  method="post"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Enter your email</label>
-  <input type="email" name="email" id="bd-email" />
-  <input type="submit" value="Subscribe" />
-  <p>
-    <a href="https://buttondown.com/refer/storiesbydavidk" target="_blank">
+     <form
+    action="https://buttondown.com/api/emails/embed-subscribe/storiesbydavidk"
+    method="post"
+    class="embeddable-buttondown-form"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/storiesbydavidk', 'popupwindow')"
+  >
+    <input
+      type="email"
+      name="email"
+      id="bd-email"
+      placeholder="Enter your email"
+      required
+    />
 
-    </a>
-  </p>
-</form>
+    <input type="submit" value="Subscribe" />
+  </form>
     
     </p>
     
