@@ -38,6 +38,44 @@ nav a {
   font-size: 15px;
 }
 
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .book-card {
+    flex-direction: column;
+  }
+
+  .book-actions {
+    flex-direction: column;
+  }
+
+  .book-actions a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .embeddable-buttondown-form input[type="email"],
+  .embeddable-buttondown-form input[type="submit"] {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+
+
 ul {
   color: #5a564f;
 }
