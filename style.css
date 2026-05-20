@@ -365,6 +365,7 @@ nav a:hover {
 #subscribe-message {
   display: none;
   color: #5a564f;
-  margin-top: 12px;
-  font-weight: bold;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
 }
