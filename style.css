@@ -332,3 +332,39 @@ nav a:hover {
 .subscribe-box input[type="submit"]:hover {
   opacity: 0.9;
 }
+
+
+.embeddable-buttondown-form {
+  margin-top: 20px;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  padding: 12px;
+  width: 260px;
+  max-width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  padding: 12px 18px;
+  margin-left: 8px;
+  background-color: #5a564f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+#subscribe-message {
+  display: none;
+  color: #5a564f;
+  margin-top: 12px;
+  font-weight: bold;
+}
