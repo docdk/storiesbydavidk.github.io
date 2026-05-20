@@ -98,11 +98,14 @@
       If you would like to be notified when new books or resources are added, please subscribe below. 
     </p>
     
-   <form
+   <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+<form
   action="https://buttondown.com/api/emails/embed-subscribe/storiesbydavidk"
   method="post"
+  target="hidden_iframe"
   class="embeddable-buttondown-form"
-  onsubmit="document.getElementById('subscribe-message').style.display='block'; return false;"
+  onsubmit="document.getElementById('subscribe-message').style.display='block';"
 >
 
   <input
