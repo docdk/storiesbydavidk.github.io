@@ -289,3 +289,46 @@ nav a:hover {
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
   background: white;
 }
+
+
+.subscribe-box {
+  background: #f7f3ee;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.subscribe-box h3 {
+  color: #5a564f;
+  margin-bottom: 10px;
+}
+
+.subscribe-box p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.subscribe-box input[type="email"] {
+  padding: 12px;
+  width: 70%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.subscribe-box input[type="submit"] {
+  background: #5a564f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.subscribe-box input[type="submit"]:hover {
+  opacity: 0.9;
+}
