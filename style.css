@@ -531,13 +531,14 @@ nav a:hover {
   width: 100%;
   text-align: center;
   padding: 18px 20px 36px;
-  font-size: 34px;
-  letter-spacing: 4px;
-  font-family: 'Caveat', cursive;
-  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-style: italic;
   background: #ece4d8;
   box-sizing: border-box;
 }
+
 .tagline-strip span {
   display: inline-block;
   margin: 0 8px;
@@ -597,7 +598,7 @@ nav a:hover {
   font-size: 28px;
   margin: 0;
   color: #111;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .features-grid {
