@@ -558,3 +558,82 @@ nav a:hover {
   color: #9a938a;
 }
 
+
+.features-section {
+  max-width: 1200px;
+  margin: 40px auto 70px;
+  padding: 0 20px;
+}
+
+.features-heading {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 34px;
+}
+
+.feature-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #43aee4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+}
+
+.features-heading p {
+  color: #009fe3;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 0 0 8px;
+}
+
+.features-heading h2 {
+  font-size: 28px;
+  margin: 0;
+  color: #111;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.feature-item p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #5f5b57;
+  font-weight: 700;
+  margin-top: 14px;
+}
+
+.feature-icon {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.feature-icon.blue {
+  color: #43aee4;
+}
+
+.feature-icon.red {
+  color: #ff4b4b;
+}
+
+.feature-icon.green {
+  color: #42b87a;
+}
+
+@media (max-width: 850px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+
