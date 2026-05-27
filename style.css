@@ -522,3 +522,36 @@ nav a:hover {
     padding-right: 130px;
   }
 }
+
+
+.tagline-strip {
+  text-align: center;
+  padding: 26px 20px;
+  font-size: 22px;
+  letter-spacing: 6px;
+  font-weight: 300;
+  background: #ece4d8;
+  font-style: italic;
+}
+
+.tagline-strip span {
+  margin: 0 6px;
+}
+
+.tagline-strip .orange {
+  color: #f29b1d;
+}
+
+.tagline-strip .blue {
+  color: #00a8f0;
+}
+
+.tagline-strip .red {
+  color: #d62e2e;
+}
+
+.tagline-strip .dot {
+  color: #9a938a;
+}
+
+
