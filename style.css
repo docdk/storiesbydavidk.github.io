@@ -641,7 +641,7 @@ nav a:hover {
 
 .image-feature {
   max-width: 1200px;
-  margin: 80px auto;
+  margin: 40px auto 80px;
   padding: 0 20px;
 }
 
