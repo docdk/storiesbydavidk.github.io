@@ -51,14 +51,15 @@ nav a:hover {
   margin: 0 auto;
   padding: 80px 20px 50px;
   display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  gap: 40px;
+  grid-template-columns: 1.45fr 0.55fr;
+  gap: 35px;
   align-items: center;
 }
 
 .hero-text {
-  max-width: 720px;
+  max-width: 780px;
 }
+
 
 .hero-text h4 {
   color: #c83224;
@@ -75,7 +76,7 @@ nav a:hover {
   margin-bottom: 18px;
   color: #17151f;
   font-weight: 800;
-  max-width: 760px;
+  max-width: 780px;
 }
 
 .hero-text p {
@@ -87,9 +88,10 @@ nav a:hover {
   max-width: 760px;
 }
 
-.hero-image {
-  display: flex;
-  justify-content: center;
+.hero-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 28px;
 }
 
 .hero-image img {
