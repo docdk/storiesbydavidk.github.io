@@ -98,6 +98,7 @@ nav a:hover {
   display: flex;
   gap: 22px;
   margin-top: 35px;
+  margin-bottom: 70px;
   flex-wrap: wrap;
 }
 
