@@ -535,6 +535,7 @@ nav a:hover {
   letter-spacing: 5px;
   font-weight: 600;
   font-style: italic;
+  font-family: 'Caveat', cursive;
   background: #ece4d8;
   box-sizing: border-box;
 }
