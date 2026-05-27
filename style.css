@@ -525,17 +525,20 @@ nav a:hover {
 
 
 .tagline-strip {
+  width: 100%;
   text-align: center;
-  padding: 26px 20px;
-  font-size: 22px;
-  letter-spacing: 6px;
+  padding: 18px 20px 36px;
+  font-size: 24px;
+  letter-spacing: 5px;
   font-weight: 300;
-  background: #ece4d8;
   font-style: italic;
+  background: #ece4d8;
+  box-sizing: border-box;
 }
 
 .tagline-strip span {
-  margin: 0 6px;
+  display: inline-block;
+  margin: 0 8px;
 }
 
 .tagline-strip .orange {
@@ -553,5 +556,4 @@ nav a:hover {
 .tagline-strip .dot {
   color: #9a938a;
 }
-
 
