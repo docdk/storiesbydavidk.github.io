@@ -82,29 +82,46 @@ nav a:hover {
 }
 
 .buttons {
-  margin-top: 28px;
+  display: flex;
+  gap: 22px;
+  margin-top: 35px;
+  flex-wrap: wrap;
 }
 
 .button {
-  display: inline-block;
-  padding: 14px 22px;
-  margin-right: 12px;
-  margin-bottom: 12px;
-  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 22px 34px;
+  border-radius: 999px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: all 0.25s ease;
+  border: 3px solid #c83224;
+  box-sizing: border-box;
 }
 
 .button-primary {
-  background: #8c6a43;
+  background: #c83224;
   color: white;
 }
 
+.button-primary:hover {
+  background: #b72b1f;
+  border-color: #b72b1f;
+}
+
 .button-secondary {
-  background: white;
-  color: #5a4a37;
-  border: 1px solid #d9cdbf;
+  background: transparent;
+  color: #c83224;
+}
+
+.button-secondary:hover {
+  background: #c83224;
+  color: white;
 }
 
 .section {
