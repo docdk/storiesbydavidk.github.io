@@ -47,9 +47,9 @@ nav a:hover {
 }
 
 .hero {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 20px 50px;
+  padding: 80px 10px 50px;
   display: grid;
   grid-template-columns: 1.45fr 0.55fr;
   gap: 35px;
@@ -90,13 +90,7 @@ nav a:hover {
 
 .hero-image img {
   width: 100%;
-  max-width: 350px;
-  border-radius: 28px;
-}
-
-.hero-image img {
-  width: 100%;
-  max-width: 420px;
+  max-width: 330px;
   border-radius: 28px;
 }
 
