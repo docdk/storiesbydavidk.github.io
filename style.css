@@ -84,7 +84,7 @@ nav a:hover {
   line-height: 1.5;
   color: #6f6a67;
   margin-bottom: 32px;
-  font-weight: 600;
+  font-weight: 400;
   max-width: 760px;
 }
 
@@ -530,7 +530,7 @@ nav a:hover {
   padding: 18px 20px 36px;
   font-size: 24px;
   letter-spacing: 5px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   background: #ece4d8;
   box-sizing: border-box;
