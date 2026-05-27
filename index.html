@@ -150,8 +150,33 @@
       age groups, and learning needs. Class time has never been so much fun!
     </p>
 
-    <a class="button button-primary" href="#subscribe">SUBSCRIBE</a>
-  </div>
+     <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+  <form
+  action="https://buttondown.com/api/emails/embed-subscribe/storiesbydavidk"
+  method="post"
+  target="hidden_iframe"
+  class="embeddable-buttondown-form"
+  onsubmit="document.getElementById('subscribe-message').style.display='block';"
+>
+
+  <input
+    type="email"
+    name="email"
+    id="bd-email"
+    placeholder="Enter your email"
+    required
+  />
+
+  <input type="submit" value="Subscribe" />
+
+  <p id="subscribe-message">
+    ✅ Welcome! Please check your email to confirm your subscription.
+  </p>
+
+</form>
+    
+    </p>
 
   <div class="resources-image">
     <img src="coverF.png" alt="Resources illustration">
