@@ -8,7 +8,6 @@ body {
 
 header {
   background: #BD3126;
-  border-bottom: none;
   position: sticky;
   top: 0;
   z-index: 10;
