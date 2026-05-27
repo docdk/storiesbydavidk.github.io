@@ -47,12 +47,11 @@ nav a:hover {
 }
 
 .hero {
-  max-width: 1100px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 80px 20px 50px;
   display: grid;
-  grid-template-columns: minmax(0, 620px) auto;
-  justify-content: space-between;
+  grid-template-columns: 1.3fr 0.7fr;
   gap: 40px;
   align-items: center;
 }
@@ -76,7 +75,7 @@ nav a:hover {
   margin-bottom: 18px;
   color: #17151f;
   font-weight: 800;
-  max-width: 650px;
+  max-width: 760px;
 }
 
 .hero-text p {
@@ -85,7 +84,7 @@ nav a:hover {
   color: #6f6a67;
   margin-bottom: 32px;
   font-weight: 600;
-  max-width: 650px;
+  max-width: 760px;
 }
 
 .hero-image {
