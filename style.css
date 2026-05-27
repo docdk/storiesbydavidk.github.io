@@ -464,3 +464,65 @@ nav a:hover {
     margin-top: 20px;
   }
 }
+
+
+.quick-links {
+  max-width: 1200px;
+  margin: 30px auto 70px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.quick-card {
+  position: relative;
+  min-height: 115px;
+  background: white;
+  border-radius: 20px;
+  padding: 28px 150px 24px 30px;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+  overflow: visible;
+}
+
+.quick-card h3 {
+  color: #009fe3;
+  font-size: 20px;
+  margin: 0 0 12px;
+  letter-spacing: 0.5px;
+}
+
+.quick-card p {
+  color: #6f6a67;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.quick-card img {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  max-width: 125px;
+  max-height: 150px;
+}
+
+.quick-card:hover {
+  transform: translateY(-4px);
+  transition: 0.25s ease;
+}
+
+@media (max-width: 850px) {
+  .quick-links {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-card {
+    padding-right: 135px;
+  }
+}
+
+
+
