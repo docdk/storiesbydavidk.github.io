@@ -65,11 +65,12 @@ nav a:hover {
 }
 
 .hero-text h1 {
-  font-size: 64px;
-  line-height: 1.05;
-  margin-bottom: 28px;
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 24px;
   color: #17151f;
   font-weight: 800;
+  max-width: 650px;
 }
 
 .hero-text p {
