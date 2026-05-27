@@ -51,8 +51,9 @@ nav a:hover {
   margin: 0 auto;
   padding: 80px 20px 50px;
   display: grid;
-  grid-template-columns: 1fr 0.9fr;
-  gap: 70px;
+  grid-template-columns: minmax(0, 620px) auto;
+  justify-content: space-between;
+  gap: 40px;
   align-items: center;
 }
 
@@ -88,7 +89,8 @@ nav a:hover {
 }
 
 .hero-image {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-image img {
