@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: Pacifico, cursive;
-  background: #2f2f2f;
+  font-family: Arial, sans-serif;
+  background: #f7f3ed;
   color: #2f2f2f;
   line-height: 1.6;
 }
 
 header {
-  background: #f7f5f1;
-  border-bottom: 1px solid #e7e1d8;
+  background: #BD3126;
+  border-bottom: none;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -24,14 +24,15 @@ header {
 }
 
 .site-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #3a3a3a;
+  font-size: 38px;
+  font-family: 'Pacifico', cursive;
+  color: white;
   text-decoration: none;
+  font-weight: normal;
 }
 
 nav a {
-  color: #4a4a4a;
+  color: white;
   text-decoration: none;
   margin-left: 22px;
   font-weight: 600;
@@ -43,7 +44,7 @@ ul {
 }
 
 nav a:hover {
-  color: #8c6a43;
+  color: #ffe6d5;
 }
 
 .hero {
