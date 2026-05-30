@@ -827,3 +827,19 @@ border-color: #b72b1f;
   font-weight: 500;
   margin-top: 6px;
 }
+
+.video-note-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  margin-top: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+
+  color: #c83224;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
