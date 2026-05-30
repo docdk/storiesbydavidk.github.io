@@ -177,9 +177,13 @@ nav a:hover {
 
 .book-layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 30px;
+  grid-template-columns: 260px 1fr;
+  gap: 50px;
   align-items: start;
+}
+
+.book-layout > div:last-child {
+  max-width: 900px;
 }
 
 .book-layout img {
@@ -251,14 +255,20 @@ nav a:hover {
 }
 
 .placeholder-box {
+  margin-top: 30px;
+  margin-left: -20px;
+  width: calc(100% + 20px);
+
   background: #fcfaf7;
   border: 1px dashed #d8c9b8;
   border-radius: 12px;
-  padding: 18px;
-  margin-top: 14px;
+  padding: 24px 28px;
 }
 
-
+.book-layout .buttons {
+  margin-top: 35px;
+  justify-content: center;
+}
 
 @media (max-width: 850px) {
 
