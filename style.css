@@ -909,17 +909,21 @@ border-color: #b72b1f;
 
 .book-wide-box {
   grid-column: 1 / -1;
-  margin-top: 60px;
-  margin-left: 0;
-  margin-right: 0;
-  width: auto;
+  margin-top: -40px;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .book-wide-buttons {
   grid-column: 1 / -1;
+
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
   gap: 22px;
-  margin-top: 40px;
+
+  margin-top: 20px;
+  margin-bottom: 0;
 }
