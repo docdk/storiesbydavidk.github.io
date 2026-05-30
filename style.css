@@ -899,7 +899,7 @@ border-color: #b72b1f;
 }
 
 .download-column .resource-list {
-  margin-top: 20px;
+  margin-top: 0px;
   padding-left: 18px;
 }
 
@@ -931,6 +931,23 @@ border-color: #b72b1f;
   width: 100%;
   margin: 0px auto 0;
   padding: 0;
+}
+
+.download-links-card {
+  background: #f5f5f5;
+  border-radius: 22px;
+  padding: 20px 24px;
+  margin-top: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
+
+.download-links-card .resource-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.download-links-card .resource-list li:last-child {
+  margin-bottom: 0;
 }
 
 
