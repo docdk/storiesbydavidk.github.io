@@ -620,9 +620,12 @@ border-color: #b72b1f;
 }
 
 .features-grid {
+  max-width: 1200px;
+  margin: 40px auto 70px;
+  padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
+  gap: 28px;
 }
 
 .feature-item p {
