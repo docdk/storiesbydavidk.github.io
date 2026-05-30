@@ -919,17 +919,14 @@ border-color: #b72b1f;
 }
 
 .book-wide-buttons {
-  grid-column: 1 / -1;
-
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 22px;
   flex-wrap: wrap;
 
-  gap: 22px;
-
-  margin-top: 20px;
-  margin-bottom: 0;
+  width: calc(100% + 260px);
+  margin-left: -260px;
+  margin-top: 24px;
 }
 
 .book-wide-buttons {
