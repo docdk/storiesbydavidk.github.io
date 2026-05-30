@@ -810,9 +810,8 @@ border-color: #b72b1f;
 .feature-item {
   background: white;
   border-radius: 22px;
-  padding: 34px 28px;
+  padding: 20px 24px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
-  min-height: 140px;
 }
 
 .features-heading {
