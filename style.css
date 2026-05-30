@@ -143,6 +143,10 @@ nav a:hover {
   padding: 28px 20px 60px 20px;
 }
 
+#harvey-book {
+  margin-top: -30px;
+}
+
 .section-card {
   background: white;
   border-radius: 18px;
