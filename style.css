@@ -927,3 +927,16 @@ border-color: #b72b1f;
   margin-top: 20px;
   margin-bottom: 0;
 }
+
+.book-wide-buttons {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 24px 0 0;
+}
+
+
