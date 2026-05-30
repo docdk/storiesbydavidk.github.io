@@ -873,3 +873,27 @@ border-color: #b72b1f;
 }
 
 
+.downloads-columns {
+  max-width: 1200px;
+  margin: 40px auto 80px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.download-column .resource-list {
+  margin-top: 20px;
+  padding-left: 18px;
+}
+
+.download-column .resource-list li {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 850px) {
+  .downloads-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
