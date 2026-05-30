@@ -255,14 +255,14 @@ nav a:hover {
 }
 
 .placeholder-box {
-  margin-top: 30px;
-  margin-left: -20px;
-  width: calc(100% + 20px);
-
   background: #fcfaf7;
   border: 1px dashed #d8c9b8;
   border-radius: 12px;
   padding: 24px 28px;
+
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .book-layout .buttons {
@@ -909,11 +909,17 @@ border-color: #b72b1f;
 
 .book-wide-box {
   grid-column: 1 / -1;
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  box-sizing: border-box;
 }
 
 .book-wide-buttons {
   grid-column: 1 / -1;
+  display: flex;
   justify-content: center;
-  margin-top: 35px;
+  gap: 22px;
+  margin-top: 40px;
 }
