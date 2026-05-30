@@ -807,9 +807,16 @@ border-color: #b72b1f;
   padding-top: 70px;
 }
 
-.features-section .section-card {
-  max-width: 1200px;
-  margin: 0 auto;
+.feature-item {
+  background: white;
+  border-radius: 22px;
+  padding: 34px 28px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+  min-height: 140px;
+}
+
+.features-heading {
+  margin-bottom: 28px;
 }
 
 .video-note {
