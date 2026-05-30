@@ -807,4 +807,9 @@ border-color: #b72b1f;
   padding-top: 70px;
 }
 
+.features-section .section-card {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
