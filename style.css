@@ -919,17 +919,6 @@ border-color: #b72b1f;
 }
 
 .book-wide-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 22px;
-  flex-wrap: wrap;
-
-  width: calc(100% + 260px);
-  margin-left: -260px;
-  margin-top: 24px;
-}
-
-.book-wide-buttons {
   grid-column: 1 / -1;
   display: flex;
   justify-content: center;
