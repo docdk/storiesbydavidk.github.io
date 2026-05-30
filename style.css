@@ -821,8 +821,9 @@ border-color: #b72b1f;
 
 .video-note {
   text-align: center;
-  color: #6f6a67;
-  font-size: 16px;
-  margin-top: 16px;
-  font-style: italic;
+  color: #c83224;
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-weight: 800;
+  margin-top: 6px;
 }
