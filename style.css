@@ -937,7 +937,8 @@ border-color: #b72b1f;
   gap: 22px;
   flex-wrap: wrap;
   width: 100%;
-  margin: 24px 0 0;
+  margin: 35px auto 0;
+  padding: 0;
 }
 
 
