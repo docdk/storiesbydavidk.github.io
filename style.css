@@ -154,7 +154,8 @@ nav a:hover {
   padding: 42px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
   margin-bottom: 24px;
-  max-width: 1080px;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
 
 .section h2 {
