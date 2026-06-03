@@ -52,7 +52,7 @@ nav a:hover {
   padding: 80px 10px 50px;
   display: grid;
   grid-template-columns: 1.45fr 0.55fr;
-  gap: 35px;
+  gap: 15px;
   align-items: center;
 }
 
@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .hero-image img {
-  width: 140%;
+  width: 130%;
   max-width: 430px;
   border-radius: 28px;
 }
