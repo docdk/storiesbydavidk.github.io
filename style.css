@@ -49,7 +49,7 @@ nav a:hover {
 .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 10px 50px;
+  padding: 40px 10px 50px;
   display: grid;
   grid-template-columns: 1.45fr 0.55fr;
   gap: 15px;
