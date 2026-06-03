@@ -730,7 +730,8 @@ border-color: #b72b1f;
 
 .resources-image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .resources-image img {
