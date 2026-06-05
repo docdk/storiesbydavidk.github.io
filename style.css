@@ -498,7 +498,7 @@ border-color: #b72b1f;
 
 .quick-links {
   max-width: 1200px;
-  margin: 80px auto 70px;
+  margin: 30px auto 70px;
   padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
