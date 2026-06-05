@@ -93,7 +93,6 @@ nav a:hover {
   max-width: 430px;
   border-radius: 28px;
   margin-left: -90px;
-  margin-bottom: 80px;
 }
 
 .buttons {
@@ -499,7 +498,7 @@ border-color: #b72b1f;
 
 .quick-links {
   max-width: 1200px;
-  margin: 27px auto 70px;
+  margin: 80px auto 70px;
   padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
