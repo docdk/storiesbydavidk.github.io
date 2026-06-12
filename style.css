@@ -801,3 +801,21 @@ nav a:hover {
 .home-quick-links {
   margin-top: 0;
 }
+
+
+/* HOME PAGE SPACING TO MATCH RESOURCES PAGE */
+
+.home-hero {
+  padding: 0 10px;
+  margin: 70px auto 40px;
+}
+
+.home-hero .buttons {
+  margin-bottom: 0;
+}
+
+.home-quick-links {
+  margin: 40px auto 70px;
+}
+
+
