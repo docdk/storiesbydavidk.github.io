@@ -787,3 +787,17 @@ nav a:hover {
 }
 
 
+/* HOME PAGE GAP FIX */
+
+.home-hero {
+  padding-bottom: 0;
+  margin-bottom: -20px;
+}
+
+.home-hero .buttons {
+  margin-bottom: 0;
+}
+
+.home-quick-links {
+  margin-top: 0;
+}
