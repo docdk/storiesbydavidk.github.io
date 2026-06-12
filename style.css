@@ -282,64 +282,10 @@ nav a:hover {
   justify-content: center;
 }
 
-/* BOOK BUTTONS */
-
 .book-actions {
   display: flex;
   gap: 12px;
 }
-
-/* SUBSCRIBE FORM */
-
-.embeddable-buttondown-form {
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-.embeddable-buttondown-form input[type="email"] {
-  padding: 12px;
-  width: 260px;
-  max-width: 80%;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 16px;
-}
-
-.embeddable-buttondown-form input[type="submit"] {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 150px;
-  padding: 14px 16px;
-  margin-right: 16px;
-  margin-left: 12px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 2px;
-  transition: all 0.25s ease;
-  border: 3px solid #c83224;
-  box-sizing: border-box;
-  background: #c83224;
-  color: white;
-  cursor: pointer;
-}
-
-.embeddable-buttondown-form input[type="submit"]:hover {
-  background-color: #b72b1f;
-  border-color: #b72b1f;
-}
-
-#subscribe-message {
-  display: none;
-  color: #3b332b;
-  margin-top: 15px;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-/* --- PDF hover preview --- */
 
 .fullimage img {
   max-width: 100%;
@@ -391,7 +337,53 @@ nav a:hover {
   opacity: 0.9;
 }
 
-/* QUICK LINKS */
+.embeddable-buttondown-form {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  padding: 12px;
+  width: 260px;
+  max-width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  padding: 14px 16px;
+  margin-right: 16px;
+  margin-left: 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  transition: all 0.25s ease;
+  border: 3px solid #c83224;
+  box-sizing: border-box;
+  background: #c83224;
+  color: white;
+  cursor: pointer;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background-color: #b72b1f;
+  border-color: #b72b1f;
+}
+
+#subscribe-message {
+  display: none;
+  color: #3b332b;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
 
 .quick-links {
   max-width: 1200px;
@@ -781,41 +773,3 @@ nav a:hover {
 .spacer {
   height: 40px;
 }
-
-.page-section-up {
-  margin-top: -30px;
-}
-
-
-/* HOME PAGE GAP FIX */
-
-.home-hero {
-  padding-bottom: 0;
-  margin-bottom: -20px;
-}
-
-.home-hero .buttons {
-  margin-bottom: 0;
-}
-
-.home-quick-links {
-  margin-top: 0;
-}
-
-
-/* HOME PAGE SPACING TO MATCH RESOURCES PAGE */
-
-.home-hero {
-  padding: 0 10px;
-  margin: 70px auto 40px;
-}
-
-.home-hero .buttons {
-  margin-bottom: 0;
-}
-
-.home-quick-links {
-  margin: 40px auto 70px;
-}
-
-
