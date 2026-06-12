@@ -781,3 +781,9 @@ nav a:hover {
 .spacer {
   height: 40px;
 }
+
+.page-section-up {
+  margin-top: -50px;
+}
+
+
