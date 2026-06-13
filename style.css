@@ -1093,5 +1093,22 @@ nav a:hover {
 }
 
 
+/* ALIGN HOME HERO WITH QUICK LINKS */
+
+.hero.home-hero {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+@media (max-width: 850px) {
+  .hero.home-hero {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+
+
 
 
