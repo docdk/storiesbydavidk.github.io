@@ -106,10 +106,6 @@ nav a:hover {
   margin-left: -104px;
 }
 
-.home-hero .hero-image img {
-  margin-top: 25px;
-}
-
 
 .buttons {
   display: flex;
@@ -792,3 +788,10 @@ nav a:hover {
 .spacer {
   height: 40px;
 }
+
+
+.home-hero .hero-image img {
+  transform: translateY(35px);
+}
+
+
