@@ -62,6 +62,14 @@ nav a:hover {
   align-items: center;
 }
 
+.home-hero {
+  padding-bottom: 0;
+}
+
+.home-hero .buttons {
+  margin-bottom: 0;
+}
+
 .hero-text {
   max-width: 780px;
 }
@@ -385,15 +393,6 @@ nav a:hover {
   font-size: 15px;
 }
 
-.home-quick-links {
-  max-width: 1200px;
-  margin: 20px auto 70px;
-  padding: 0 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-}
-
 .quick-links {
   max-width: 1200px;
   margin: 30px auto 70px;
@@ -401,6 +400,10 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
+}
+
+.quick-links.home-quick-links {
+  margin-top: 10px;
 }
 
 .quick-card {
