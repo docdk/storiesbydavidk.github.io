@@ -385,6 +385,15 @@ nav a:hover {
   font-size: 15px;
 }
 
+.home-quick-links {
+  max-width: 1200px;
+  margin: 20px auto 70px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
 .quick-links {
   max-width: 1200px;
   margin: 30px auto 70px;
