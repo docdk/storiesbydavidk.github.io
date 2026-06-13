@@ -63,11 +63,8 @@ nav a:hover {
 }
 
 .home-hero {
-  padding-bottom: 0;
-}
-
-.home-hero .buttons {
-  margin-bottom: 0;
+  padding-top: 45px;
+  padding-bottom: 35px;
 }
 
 .hero-text {
@@ -115,6 +112,10 @@ nav a:hover {
   margin-top: 35px;
   margin-bottom: 50px;
   flex-wrap: wrap;
+}
+
+.home-hero .buttons {
+  margin-bottom: 25px;
 }
 
 .button {
@@ -403,7 +404,7 @@ nav a:hover {
 }
 
 .quick-links.home-quick-links {
-  margin-top: 10px;
+  margin-top: 35px;
 }
 
 .quick-card {
