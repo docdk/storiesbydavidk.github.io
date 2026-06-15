@@ -120,6 +120,15 @@ nav a:hover {
   margin-left: -104px;
 }
 
+.hero-video video {
+  width: 132%;
+  max-width: 432px;
+  border-radius: 28px;
+  margin-top: 9px;
+  margin-left: -104px;
+  display: block;
+}
+
 
 .buttons {
   display: flex;
@@ -918,6 +927,15 @@ nav a:hover {
     border-radius: 24px;
     transform: none;
   }
+
+  .hero-video video {
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+  border-radius: 24px;
+  transform: none;
+}
+  
 
   .buttons {
     display: flex;
