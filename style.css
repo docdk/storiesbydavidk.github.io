@@ -674,6 +674,7 @@ nav a:hover {
 .resources-image img {
   width: 130%;
   max-width: 430px;
+  max-height: 380px;
   border-radius: 28px;
   margin-left: -90px;
   margin-top: 0px;
